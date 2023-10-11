@@ -1,0 +1,12 @@
+2021-05-17 01:07:16 [JobThread.run-130] <br>----------- dasher job execute start -----------<br>----------- Param:
+2021-05-17 01:07:17 [BuildCommand.buildDataXParam-100] ------------------Command parameters:
+2021-05-17 01:07:17 [ExecutorJobHandler.execute-57] ------------------DataX process id: 7140
+2021-05-17 01:07:17 [ExecutorJobHandler.execute-83] java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:418)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:190)
+	at com.wugui.datax.executor.service.jobhandler.ExecutorJobHandler.execute(ExecutorJobHandler.java:76)
+	at com.wugui.datatx.core.thread.JobThread.run(JobThread.java:153)
+
+2021-05-17 01:07:17 [JobThread.run-165] <br>----------- dasher job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=500, msg=command exit value(-1) is failed, content=null]
+2021-05-17 01:07:17 [ProcessCallbackThread.callbackLog-186] <br>----------- dasher job callback finish.
+2021-05-17 01:07:17 [TriggerCallbackThread.callbackLog-186] <br>----------- dasher job callback finish.

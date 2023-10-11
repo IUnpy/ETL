@@ -1,0 +1,177 @@
+2021-05-17 18:29:21 [JobThread.run-130] <br>----------- dasher job execute start -----------<br>----------- Param:
+2021-05-17 18:29:21 [BuildCommand.buildDataXParam-100] ------------------Command parameters:
+2021-05-17 18:29:21 [ExecutorJobHandler.execute-57] ------------------DataX process id: 2176
+2021-05-17 18:29:21 [ProcessCallbackThread.callbackLog-186] <br>----------- dasher job callback finish.
+2021-05-17 18:29:21 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:21 [AnalysisStatistics.analysisStatisticsLog-53] DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2021-05-17 18:29:21 [AnalysisStatistics.analysisStatisticsLog-53] Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2021-05-17 18:29:21 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:21 [AnalysisStatistics.analysisStatisticsLog-53] Active code page: 65001
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:22.426 [main] INFO  VMInfo - VMInfo# operatingSystem class => com.sun.management.internal.OperatingSystemImpl
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:22.434 [main] INFO  Engine - the machine info  => 
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	osInfo:	Oracle Corporation 11 11.0.9+7-LTS
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	jvmInfo:	Windows 10 amd64 10.0
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	cpu num:	8
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	totalPhysicalMemory:	-0.00G
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	freePhysicalMemory:	-0.00G
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	maxFileDescriptorCount:	-1
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	currentOpenFileDescriptorCount:	-1
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	GC Names	[G1 Young Generation, G1 Old Generation]
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	MEMORY_NAME                    | allocation_size                | init_size                      
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	CodeHeap 'profiled nmethods'   | 117.19MB                       | 2.44MB                         
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	G1 Old Gen                     | 1,024.00MB                     | 970.00MB                       
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	G1 Survivor Space              | -0.00MB                        | 0.00MB                         
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	CodeHeap 'non-profiled nmethods' | 117.19MB                       | 2.44MB                         
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	G1 Eden Space                  | -0.00MB                        | 54.00MB                        
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	CodeHeap 'non-nmethods'        | 5.63MB                         | 2.44MB                         
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:22.457 [main] INFO  Engine - 
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] {
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	"content":[
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 		{
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 			"reader":{
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"sqlserverreader",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"[number]",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"[name]",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"[gender]",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"[native_place]",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"[politics_status]",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"[phone]",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"[majro]",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"[birth]"
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":[
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 								"jdbc:sqlserver://localhost:1433;DatabaseName=testDB"
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 							],
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 								"dbo.student_computer"
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"******",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"splitPk":"",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"dasher",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"where":"major = '软件工程'"
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 				}
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 			},
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 			"writer":{
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"mysqlwriter",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"`sid`",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"`sname`",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"`gender`",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"`native_place`",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"`politics_status`",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"`phone`",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"`major`",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"`birth`"
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/mysql_testdb?serverTimezone=UTC",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 								"student_se"
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"*****",
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"postSql":[
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 						"alter table student_se drop column major"
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"root"
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 				}
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 			}
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	],
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	"setting":{
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 		"errorLimit":{
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 			"percentage":0.02,
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 			"record":0
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 		},
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 		"speed":{
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 			"byte":1048576,
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 			"channel":3
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 	}
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] }
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:22.478 [main] WARN  Engine - prioriy set to 0, because NumberFormatException, the value is: null
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:22.480 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false, priority=0
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:22.480 [main] INFO  JobContainer - DataX jobContainer starts job.
+2021-05-17 18:29:22 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:22.482 [main] INFO  JobContainer - Set jobId = 0
+2021-05-17 18:29:30 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:30.974 [job-0] INFO  OriginalConfPretreatmentUtil - Available jdbcUrl:jdbc:sqlserver://localhost:1433;DatabaseName=testDB.
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.050 [job-0] INFO  OriginalConfPretreatmentUtil - table:[dbo.student_computer] has columns:[number,name,gender,birth,native_place,politics_status,phone,major].
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.313 [job-0] INFO  OriginalConfPretreatmentUtil - table:[student_se] all columns:[
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] sid,sname,gender,birth,native_place,politics_status,phone,major
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] ].
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.327 [job-0] INFO  OriginalConfPretreatmentUtil - Write data [
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] INSERT INTO %s (`sid`,`sname`,`gender`,`native_place`,`politics_status`,`phone`,`major`,`birth`) VALUES(?,?,?,?,?,?,?,?)
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] ], which jdbcUrl like:[jdbc:mysql://127.0.0.1:3306/mysql_testdb?serverTimezone=UTC&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true]
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.327 [job-0] INFO  JobContainer - jobContainer starts to do prepare ...
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.328 [job-0] INFO  JobContainer - DataX Reader.Job [sqlserverreader] do prepare work .
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.328 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do prepare work .
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.329 [job-0] INFO  JobContainer - jobContainer starts to do split ...
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.329 [job-0] INFO  JobContainer - Job set Max-Byte-Speed to 1048576 bytes.
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.331 [job-0] INFO  JobContainer - DataX Reader.Job [sqlserverreader] splits to [1] tasks.
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.332 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] splits to [1] tasks.
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.346 [job-0] INFO  JobContainer - jobContainer starts to do schedule ...
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.349 [job-0] INFO  JobContainer - Scheduler starts [1] taskGroups.
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.350 [job-0] INFO  JobContainer - Running by standalone Mode.
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.355 [taskGroup-0] INFO  TaskGroupContainer - taskGroupId=[0] start [1] channels for [1] tasks.
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.366 [taskGroup-0] INFO  Channel - Channel set byte_speed_limit to -1, No bps activated.
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.366 [taskGroup-0] INFO  Channel - Channel set record_speed_limit to -1, No tps activated.
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.379 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] attemptCount[1] is started
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.386 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Begin to read record by Sql: [select [number],[name],[gender],[native_place],[politics_status],[phone],[majro],[birth] from dbo.student_computer where (major = '软件工程')
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] ] jdbcUrl:[jdbc:sqlserver://localhost:1433;DatabaseName=testDB].
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:31.441 [0-0-0-reader] ERROR ReaderRunner - Reader runner Received Exceptions:
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] com.alibaba.datax.common.exception.DataXException: Code:[DBUtilErrorCode-06], Description:[执行数据库 Sql 失败, 请检查您的配置的 column/table/where/querySql或者向 DBA 寻求帮助.].  - 执行的SQL为: select [number],[name],[gender],[native_place],[politics_status],[phone],[majro],[birth] from dbo.student_computer where (major = '软件工程') 具体错误信息为：com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'majro' 无效。
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:26) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.RdbmsException.asQueryException(RdbmsException.java:97) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.reader.CommonRdbmsReader$Task.startRead(CommonRdbmsReader.java:220) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.reader.sqlserverreader.SqlServerReader$Task.startRead(SqlServerReader.java:79) ~[sqlserverreader-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.taskgroup.runner.ReaderRunner.run(ReaderRunner.java:57) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 18:29:31 [AnalysisStatistics.analysisStatisticsLog-53] 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:41.380 [job-0] INFO  StandAloneJobContainerCommunicator - Total 0 records, 0 bytes | Speed 0B/s, 0 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.000s | Percentage 0.00%
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:41.380 [job-0] ERROR JobContainer - 运行scheduler 模式[standalone]出错.
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:41.383 [job-0] ERROR JobContainer - Exception when job run
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] com.alibaba.datax.common.exception.DataXException: Code:[DBUtilErrorCode-06], Description:[执行数据库 Sql 失败, 请检查您的配置的 column/table/where/querySql或者向 DBA 寻求帮助.].  - 执行的SQL为: select [number],[name],[gender],[native_place],[politics_status],[phone],[majro],[birth] from dbo.student_computer where (major = '软件工程') 具体错误信息为：com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'majro' 无效。
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:26) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.RdbmsException.asQueryException(RdbmsException.java:97) ~[na:na]
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.reader.CommonRdbmsReader$Task.startRead(CommonRdbmsReader.java:220) ~[na:na]
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.reader.sqlserverreader.SqlServerReader$Task.startRead(SqlServerReader.java:79) ~[na:na]
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.taskgroup.runner.ReaderRunner.run(ReaderRunner.java:57) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:41.385 [job-0] INFO  StandAloneJobContainerCommunicator - Total 0 records, 0 bytes | Speed 0B/s, 0 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.000s | Percentage 0.00%
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:29:41.386 [job-0] ERROR Engine - 
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 经DataX智能分析,该任务最可能的错误原因是:
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] com.alibaba.datax.common.exception.DataXException: Code:[DBUtilErrorCode-06], Description:[执行数据库 Sql 失败, 请检查您的配置的 column/table/where/querySql或者向 DBA 寻求帮助.].  - 执行的SQL为: select [number],[name],[gender],[native_place],[politics_status],[phone],[majro],[birth] from dbo.student_computer where (major = '软件工程') 具体错误信息为：com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'majro' 无效。
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:26)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.RdbmsException.asQueryException(RdbmsException.java:97)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.reader.CommonRdbmsReader$Task.startRead(CommonRdbmsReader.java:220)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.reader.sqlserverreader.SqlServerReader$Task.startRead(SqlServerReader.java:79)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.taskgroup.runner.ReaderRunner.run(ReaderRunner.java:57)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] Exception in thread "taskGroup-0" com.alibaba.datax.common.exception.DataXException: Code:[DBUtilErrorCode-06], Description:[执行数据库 Sql 失败, 请检查您的配置的 column/table/where/querySql或者向 DBA 寻求帮助.].  - 执行的SQL为: select [number],[name],[gender],[native_place],[politics_status],[phone],[majro],[birth] from dbo.student_computer where (major = '软件工程') 具体错误信息为：com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'majro' 无效。
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:26)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.RdbmsException.asQueryException(RdbmsException.java:97)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.reader.CommonRdbmsReader$Task.startRead(CommonRdbmsReader.java:220)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.reader.sqlserverreader.SqlServerReader$Task.startRead(SqlServerReader.java:79)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.taskgroup.runner.ReaderRunner.run(ReaderRunner.java:57)
+2021-05-17 18:29:41 [AnalysisStatistics.analysisStatisticsLog-53] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-05-17 18:29:41 [JobThread.run-165] <br>----------- dasher job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=500, msg=command exit value(1) is failed, content=null]
+2021-05-17 18:29:41 [TriggerCallbackThread.callbackLog-186] <br>----------- dasher job callback finish.

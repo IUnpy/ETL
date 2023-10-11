@@ -1,0 +1,158 @@
+2021-05-17 01:37:09 [JobThread.run-130] <br>----------- dasher job execute start -----------<br>----------- Param:
+2021-05-17 01:37:09 [BuildCommand.buildDataXParam-100] ------------------Command parameters:
+2021-05-17 01:37:09 [ExecutorJobHandler.execute-57] ------------------DataX process id: 564
+2021-05-17 01:37:09 [ProcessCallbackThread.callbackLog-186] <br>----------- dasher job callback finish.
+2021-05-17 01:37:10 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 01:37:10 [AnalysisStatistics.analysisStatisticsLog-53] DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2021-05-17 01:37:10 [AnalysisStatistics.analysisStatisticsLog-53] Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2021-05-17 01:37:10 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 01:37:10 [AnalysisStatistics.analysisStatisticsLog-53] Active code page: 65001
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:12.002 [main] INFO  VMInfo - VMInfo# operatingSystem class => com.sun.management.internal.OperatingSystemImpl
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:12.011 [main] INFO  Engine - the machine info  => 
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	osInfo:	Oracle Corporation 11 11.0.9+7-LTS
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	jvmInfo:	Windows 10 amd64 10.0
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	cpu num:	8
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	totalPhysicalMemory:	-0.00G
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	freePhysicalMemory:	-0.00G
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	maxFileDescriptorCount:	-1
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	currentOpenFileDescriptorCount:	-1
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	GC Names	[G1 Young Generation, G1 Old Generation]
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	MEMORY_NAME                    | allocation_size                | init_size                      
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	CodeHeap 'profiled nmethods'   | 117.19MB                       | 2.44MB                         
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	G1 Old Gen                     | 1,024.00MB                     | 970.00MB                       
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	G1 Survivor Space              | -0.00MB                        | 0.00MB                         
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	CodeHeap 'non-profiled nmethods' | 117.19MB                       | 2.44MB                         
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	G1 Eden Space                  | -0.00MB                        | 54.00MB                        
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	CodeHeap 'non-nmethods'        | 5.63MB                         | 2.44MB                         
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:12.032 [main] INFO  Engine - 
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] {
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	"content":[
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 		{
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 			"reader":{
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"sqlserverreader",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"[number]",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"[name]",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"[gender]",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"[native_place]",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"[politics_status]",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"[phone]",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"[majro]",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"[birth]"
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":[
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 								"jdbc:sqlserver://localhost:1433;DatabaseName=testDB"
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 							],
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 								"dbo.student_computer"
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"******",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"splitPk":"",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"dasher",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"where":"majro = '软件工程'"
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 				}
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 			},
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 			"writer":{
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"mysqlwriter",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"`sid`",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"`sname`",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"`gender`",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"`native_place`",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"`politics_status`",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"`phone`",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"`major`",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"`birth`"
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/mysql_testdb?serverTimezone=UTC",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 								"student_se"
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"*****",
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"postSql":[
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 						"alter table student_se drop column major"
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"root"
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 				}
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 			}
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	],
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	"setting":{
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 		"errorLimit":{
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 			"percentage":0.02,
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 			"record":0
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 		},
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 		"speed":{
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 			"byte":1048576,
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 			"channel":3
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 	}
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] }
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:12.054 [main] WARN  Engine - prioriy set to 0, because NumberFormatException, the value is: null
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:12.055 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false, priority=0
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:12.056 [main] INFO  JobContainer - DataX jobContainer starts job.
+2021-05-17 01:37:12 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:12.057 [main] INFO  JobContainer - Set jobId = 0
+2021-05-17 01:37:20 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:20.932 [job-0] INFO  OriginalConfPretreatmentUtil - Available jdbcUrl:jdbc:sqlserver://localhost:1433;DatabaseName=testDB.
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:21.003 [job-0] INFO  OriginalConfPretreatmentUtil - table:[dbo.student_computer] has columns:[number,name,gender,birth,native_place,politics_status,phone,major].
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:21.696 [job-0] ERROR RetryUtil - Exception when calling callable, 异常Msg:Code:[DBUtilErrorCode-10], Description:[连接数据库失败. 请检查您的 账号、密码、数据库名称、IP、Port或者向 DBA 寻求帮助(注意网络环境).].  -  具体错误信息为：com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] com.alibaba.datax.common.exception.DataXException: Code:[DBUtilErrorCode-10], Description:[连接数据库失败. 请检查您的 账号、密码、数据库名称、IP、Port或者向 DBA 寻求帮助(注意网络环境).].  -  具体错误信息为：com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:26) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.RdbmsException.asConnException(RdbmsException.java:23) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.DBUtil.connect(DBUtil.java:394) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.DBUtil.connect(DBUtil.java:384) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.DBUtil.access$000(DBUtil.java:22) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.DBUtil$3.call(DBUtil.java:322) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.DBUtil$3.call(DBUtil.java:319) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.util.RetryUtil$Retry.call(RetryUtil.java:164) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.util.RetryUtil$Retry.doRetry(RetryUtil.java:111) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.util.RetryUtil.executeWithRetry(RetryUtil.java:30) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.DBUtil.getConnection(DBUtil.java:319) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.DBUtil.getConnection(DBUtil.java:303) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.util.JdbcConnectionFactory.getConnecttion(JdbcConnectionFactory.java:27) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.writer.util.OriginalConfPretreatmentUtil.dealColumnConf(OriginalConfPretreatmentUtil.java:105) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.writer.util.OriginalConfPretreatmentUtil.dealColumnConf(OriginalConfPretreatmentUtil.java:140) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.writer.util.OriginalConfPretreatmentUtil.doPretreatment(OriginalConfPretreatmentUtil.java:35) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.writer.CommonRdbmsWriter$Job.init(CommonRdbmsWriter.java:41) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.writer.mysqlwriter.MysqlWriter$Job.init(MysqlWriter.java:31) ~[mysqlwriter-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.initJobWriter(JobContainer.java:704) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.init(JobContainer.java:304) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:113) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.start(Engine.java:92) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.entry(Engine.java:171) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:21 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.main(Engine.java:204) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-05-17 01:37:22 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:22.711 [job-0] ERROR RetryUtil - Exception when calling callable, 即将尝试执行第1次重试.本次重试计划等待[1000]ms,实际等待[1014]ms, 异常Msg:[Code:[DBUtilErrorCode-10], Description:[连接数据库失败. 请检查您的 账号、密码、数据库名称、IP、Port或者向 DBA 寻求帮助(注意网络环境).].  -  具体错误信息为：com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.]
+2021-05-17 01:37:24 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:24.724 [job-0] ERROR RetryUtil - Exception when calling callable, 即将尝试执行第2次重试.本次重试计划等待[2000]ms,实际等待[2008]ms, 异常Msg:[Code:[DBUtilErrorCode-10], Description:[连接数据库失败. 请检查您的 账号、密码、数据库名称、IP、Port或者向 DBA 寻求帮助(注意网络环境).].  -  具体错误信息为：com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.]
+2021-05-17 01:37:28 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:28.733 [job-0] ERROR RetryUtil - Exception when calling callable, 即将尝试执行第3次重试.本次重试计划等待[4000]ms,实际等待[4003]ms, 异常Msg:[Code:[DBUtilErrorCode-10], Description:[连接数据库失败. 请检查您的 账号、密码、数据库名称、IP、Port或者向 DBA 寻求帮助(注意网络环境).].  -  具体错误信息为：com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.]
+2021-05-17 01:37:36 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:36.839 [job-0] ERROR RetryUtil - Exception when calling callable, 即将尝试执行第4次重试.本次重试计划等待[8000]ms,实际等待[8005]ms, 异常Msg:[Code:[DBUtilErrorCode-10], Description:[连接数据库失败. 请检查您的 账号、密码、数据库名称、IP、Port或者向 DBA 寻求帮助(注意网络环境).].  -  具体错误信息为：com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.]
+2021-05-17 01:37:52 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:37:52.843 [job-0] ERROR RetryUtil - Exception when calling callable, 即将尝试执行第5次重试.本次重试计划等待[16000]ms,实际等待[16001]ms, 异常Msg:[Code:[DBUtilErrorCode-10], Description:[连接数据库失败. 请检查您的 账号、密码、数据库名称、IP、Port或者向 DBA 寻求帮助(注意网络环境).].  -  具体错误信息为：com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.]
+2021-05-17 01:38:24 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:38:24.847 [job-0] ERROR RetryUtil - Exception when calling callable, 即将尝试执行第6次重试.本次重试计划等待[32000]ms,实际等待[32001]ms, 异常Msg:[Code:[DBUtilErrorCode-10], Description:[连接数据库失败. 请检查您的 账号、密码、数据库名称、IP、Port或者向 DBA 寻求帮助(注意网络环境).].  -  具体错误信息为：com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.]
+2021-05-17 01:39:28 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 01:39:28.853 [job-0] ERROR RetryUtil - Exception when calling callable, 即将尝试执行第7次重试.本次重试计划等待[64000]ms,实际等待[64002]ms, 异常Msg:[Code:[DBUtilErrorCode-10], Description:[连接数据库失败. 请检查您的 账号、密码、数据库名称、IP、Port或者向 DBA 寻求帮助(注意网络环境).].  -  具体错误信息为：com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.]
+2021-05-17 01:39:29 [JobThread.run-130] <br>----------- dasher job execute start -----------<br>----------- Param:null
+2021-05-17 01:39:29 [ProcessUtil.killProcessByPid-76] Active code page: 65001
+2021-05-17 01:39:29 [ProcessUtil.killProcessByPid-76] SUCCESS: The process with PID 26036 (child process of PID 26088) has been terminated.
+2021-05-17 01:39:29 [ProcessUtil.killProcessByPid-76] SUCCESS: The process with PID 26088 (child process of PID 20176) has been terminated.
+2021-05-17 01:39:29 [ProcessUtil.killProcessByPid-76] SUCCESS: The process with PID 16276 (child process of PID 564) has been terminated.
+2021-05-17 01:39:29 [ProcessUtil.killProcessByPid-76] SUCCESS: The process with PID 20176 (child process of PID 564) has been terminated.
+2021-05-17 01:39:29 [ProcessUtil.killProcessByPid-76] SUCCESS: The process with PID 564 (child process of PID 3444) has been terminated.
+2021-05-17 01:39:29 [JobThread.run-165] <br>----------- dasher job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=500, msg=command exit value(1) is failed, content=null]
+2021-05-17 01:39:29 [JobThread.run-165] <br>----------- dasher job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=200, msg=null, content=null]
+2021-05-17 01:39:29 [TriggerCallbackThread.callbackLog-186] <br>----------- dasher job callback finish.

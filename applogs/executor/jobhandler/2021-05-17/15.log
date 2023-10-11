@@ -1,0 +1,10 @@
+2021-05-17 01:07:28 [JobThread.run-130] <br>----------- dasher job execute start -----------<br>----------- Param:
+2021-05-17 01:07:28 [BuildCommand.buildDataXParam-100] ------------------Command parameters:
+2021-05-17 01:07:28 [ExecutorJobHandler.execute-57] ------------------DataX process id: 19712
+2021-05-17 01:07:28 [ProcessCallbackThread.callbackLog-186] <br>----------- dasher job callback finish.
+2021-05-17 01:07:28 [AnalysisStatistics.analysisStatisticsLog-53]   File "H:\datax\bin\datax.py", line 114
+2021-05-17 01:07:28 [AnalysisStatistics.analysisStatisticsLog-53]     print readerRef
+2021-05-17 01:07:28 [AnalysisStatistics.analysisStatisticsLog-53]           ^
+2021-05-17 01:07:28 [AnalysisStatistics.analysisStatisticsLog-53] SyntaxError: Missing parentheses in call to 'print'. Did you mean print(readerRef)?
+2021-05-17 01:07:28 [JobThread.run-165] <br>----------- dasher job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=500, msg=command exit value(1) is failed, content=null]
+2021-05-17 01:07:28 [TriggerCallbackThread.callbackLog-186] <br>----------- dasher job callback finish.

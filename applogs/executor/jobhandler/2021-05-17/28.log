@@ -1,0 +1,173 @@
+2021-05-17 18:36:16 [JobThread.run-130] <br>----------- dasher job execute start -----------<br>----------- Param:
+2021-05-17 18:36:16 [BuildCommand.buildDataXParam-100] ------------------Command parameters:
+2021-05-17 18:36:16 [ExecutorJobHandler.execute-57] ------------------DataX process id: 5936
+2021-05-17 18:36:16 [ProcessCallbackThread.callbackLog-186] <br>----------- dasher job callback finish.
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] Active code page: 65001
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:16.975 [main] INFO  VMInfo - VMInfo# operatingSystem class => com.sun.management.internal.OperatingSystemImpl
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:16.982 [main] INFO  Engine - the machine info  => 
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	osInfo:	Oracle Corporation 11 11.0.9+7-LTS
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	jvmInfo:	Windows 10 amd64 10.0
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	cpu num:	8
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	totalPhysicalMemory:	-0.00G
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	freePhysicalMemory:	-0.00G
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	maxFileDescriptorCount:	-1
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	currentOpenFileDescriptorCount:	-1
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	GC Names	[G1 Young Generation, G1 Old Generation]
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	MEMORY_NAME                    | allocation_size                | init_size                      
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	CodeHeap 'profiled nmethods'   | 117.19MB                       | 2.44MB                         
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	G1 Old Gen                     | 1,024.00MB                     | 970.00MB                       
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	G1 Survivor Space              | -0.00MB                        | 0.00MB                         
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	CodeHeap 'non-profiled nmethods' | 117.19MB                       | 2.44MB                         
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	G1 Eden Space                  | -0.00MB                        | 54.00MB                        
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 	CodeHeap 'non-nmethods'        | 5.63MB                         | 2.44MB                         
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:16 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:17.005 [main] INFO  Engine - 
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] {
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 	"content":[
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 		{
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 			"reader":{
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"sqlserverreader",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"[number]",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"[name]",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"[gender]",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"[birth]",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"[native_place]",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"[politics_status]",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"[phone]",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"[major]"
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":[
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 								"jdbc:sqlserver://localhost:1433;DatabaseName=testDB"
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 							],
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 								"dbo.student_computer"
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"******",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"splitPk":"",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"dasher",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"where":"major = '软件工程';"
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 				}
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 			},
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 			"writer":{
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"mysqlwriter",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"`sid`",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"`sname`",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"`gender`",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"`birth`",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"`native_place`",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"`politics_status`",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"`phone`",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"`major`"
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/mysql_testdb?serverTimezone=UTC",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 								"student_se"
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"*****",
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"postSql":[
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 						"alter table student_se drop column major"
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"root"
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 				}
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 			}
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 	],
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 	"setting":{
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 		"errorLimit":{
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 			"percentage":0.02,
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 			"record":0
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 		},
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 		"speed":{
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 			"byte":1048576,
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 			"channel":3
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 	}
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] }
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:17.023 [main] WARN  Engine - prioriy set to 0, because NumberFormatException, the value is: null
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:17.024 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false, priority=0
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:17.025 [main] INFO  JobContainer - DataX jobContainer starts job.
+2021-05-17 18:36:17 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:17.026 [main] INFO  JobContainer - Set jobId = 0
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.519 [job-0] INFO  OriginalConfPretreatmentUtil - Available jdbcUrl:jdbc:sqlserver://localhost:1433;DatabaseName=testDB.
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.594 [job-0] INFO  OriginalConfPretreatmentUtil - table:[dbo.student_computer] has columns:[number,name,gender,birth,native_place,politics_status,phone,major].
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.844 [job-0] INFO  OriginalConfPretreatmentUtil - table:[student_se] all columns:[
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] sid,sname,gender,birth,native_place,politics_status,phone,major
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] ].
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.858 [job-0] INFO  OriginalConfPretreatmentUtil - Write data [
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] INSERT INTO %s (`sid`,`sname`,`gender`,`birth`,`native_place`,`politics_status`,`phone`,`major`) VALUES(?,?,?,?,?,?,?,?)
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] ], which jdbcUrl like:[jdbc:mysql://127.0.0.1:3306/mysql_testdb?serverTimezone=UTC&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true]
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.858 [job-0] INFO  JobContainer - jobContainer starts to do prepare ...
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.858 [job-0] INFO  JobContainer - DataX Reader.Job [sqlserverreader] do prepare work .
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.859 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do prepare work .
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.860 [job-0] INFO  JobContainer - jobContainer starts to do split ...
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.860 [job-0] INFO  JobContainer - Job set Max-Byte-Speed to 1048576 bytes.
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.863 [job-0] INFO  JobContainer - DataX Reader.Job [sqlserverreader] splits to [1] tasks.
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.863 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] splits to [1] tasks.
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.877 [job-0] INFO  JobContainer - jobContainer starts to do schedule ...
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.879 [job-0] INFO  JobContainer - Scheduler starts [1] taskGroups.
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.881 [job-0] INFO  JobContainer - Running by standalone Mode.
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.886 [taskGroup-0] INFO  TaskGroupContainer - taskGroupId=[0] start [1] channels for [1] tasks.
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.893 [taskGroup-0] INFO  Channel - Channel set byte_speed_limit to -1, No bps activated.
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.893 [taskGroup-0] INFO  Channel - Channel set record_speed_limit to -1, No tps activated.
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.903 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] attemptCount[1] is started
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:25.907 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Begin to read record by Sql: [select [number],[name],[gender],[birth],[native_place],[politics_status],[phone],[major] from dbo.student_computer where (major = '软件工程')
+2021-05-17 18:36:25 [AnalysisStatistics.analysisStatisticsLog-53] ] jdbcUrl:[jdbc:sqlserver://localhost:1433;DatabaseName=testDB].
+2021-05-17 18:36:26 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:26.075 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Finished read record by Sql: [select [number],[name],[gender],[birth],[native_place],[politics_status],[phone],[major] from dbo.student_computer where (major = '软件工程')
+2021-05-17 18:36:26 [AnalysisStatistics.analysisStatisticsLog-53] ] jdbcUrl:[jdbc:sqlserver://localhost:1433;DatabaseName=testDB].
+2021-05-17 18:36:26 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:26.327 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] is successed, used[425]ms
+2021-05-17 18:36:26 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:26.328 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] completed it's tasks.
+2021-05-17 18:36:35 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:35.903 [job-0] INFO  StandAloneJobContainerCommunicator - Total 40 records, 1705 bytes | Speed 170B/s, 4 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.130s | Percentage 100.00%
+2021-05-17 18:36:35 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:35.904 [job-0] INFO  AbstractScheduler - Scheduler accomplished all tasks.
+2021-05-17 18:36:35 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:35.904 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do post work.
+2021-05-17 18:36:35 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:35.917 [job-0] INFO  CommonRdbmsWriter$Job - Begin to execute postSqls:[alter table student_se drop column major]. context info:jdbc:mysql://127.0.0.1:3306/mysql_testdb?serverTimezone=UTC&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true.
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:36.114 [job-0] INFO  JobContainer - DataX Reader.Job [sqlserverreader] do post work.
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:36.115 [job-0] INFO  JobContainer - DataX jobId [0] completed successfully.
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:36.116 [job-0] INFO  HookInvoker - No hook invoked, because base dir not exists or is a file: H:\datax\hook
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:36.117 [job-0] INFO  JobContainer - 
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 	 [total cpu info] => 
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 		averageCpu                     | maxDeltaCpu                    | minDeltaCpu                    
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 		-1.00%                         | -1.00%                         | -1.00%
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53]                         
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 	 [total gc info] => 
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 		 NAME                 | totalGCCount       | maxDeltaGCCount    | minDeltaGCCount    | totalGCTime        | maxDeltaGCTime     | minDeltaGCTime     
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 		 G1 Young Generation  | 1                  | 1                  | 1                  | 0.007s             | 0.007s             | 0.007s             
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 		 G1 Old Generation    | 0                  | 0                  | 0                  | 0.000s             | 0.000s             | 0.000s             
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:36.117 [job-0] INFO  JobContainer - PerfTrace not enable!
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:36.117 [job-0] INFO  StandAloneJobContainerCommunicator - Total 40 records, 1705 bytes | Speed 170B/s, 4 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.130s | Percentage 100.00%
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 2021-05-17 18:36:36.119 [job-0] INFO  JobContainer - 
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 任务启动时刻                    : 2021-05-17 18:36:17
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 任务结束时刻                    : 2021-05-17 18:36:36
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 任务总计耗时                    :                 19s
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 任务平均流量                    :              170B/s
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 记录写入速度                    :              4rec/s
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 读出记录总数                    :                  40
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 读写失败总数                    :                   0
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] 
+2021-05-17 18:36:36 [AnalysisStatistics.analysisStatisticsLog-53] Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+2021-05-17 18:36:36 [JobThread.run-165] <br>----------- dasher job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=200, msg=LogStatistics{taskStartTime=2021-05-17 18:36:17, taskEndTime=2021-05-17 18:36:36, taskTotalTime=19s, taskAverageFlow=170B/s, taskRecordWritingSpeed=4rec/s, taskRecordReaderNum=40, taskRecordWriteFailNum=0}, content=null]
+2021-05-17 18:36:36 [TriggerCallbackThread.callbackLog-186] <br>----------- dasher job callback finish.
